@@ -1,0 +1,114 @@
+body {
+  font-family: sans-serif;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  background-color: #f7f7f7;
+}
+
+.app {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+form {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+input[type="text"] {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  transition: border 0.2s ease-out;
+}
+
+input[type="text"]:focus {
+  border-color: #4caf50;
+}
+
+button[type="submit"] {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  padding: 10px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-out;
+}
+
+button[type="submit"]:hover {
+  background-color: #3c9f40;
+}
+
+.todo {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.todo-text {
+  flex: 1;
+  cursor: pointer;
+}
+
+.todo-text:hover {
+  color: #4caf50;
+}
+
+.delete-button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto 0;
+  width: 25px;
+  height: 25px;
+  background-color: #f44336;
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.2s ease-out;
+}
+
+.delete-button:hover {
+  background-color: #e53935;
+}
+
+.filter-options {
+  margin-top: 20px;
+  font-size: 16px;
+}
+
+.filter-options label {
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.filter-options input[type="radio"] {
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.filter-options input[type="type=radio"]:checked + label {
+  font-weight: bold;
+}
+
+
