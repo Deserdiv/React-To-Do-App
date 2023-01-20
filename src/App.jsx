@@ -3,15 +3,15 @@ import './App.css'
 function TodoApp() {
   const [todos, setTodos] = useState([
     {
-      text: "Learn about React",
+      text: "Lorem Ipsum 1",
       isCompleted: false,
     },
     {
-      text: "Meet friend for lunch",
+      text: "Lorem Ipsum 2",
       isCompleted: false,
     },
     {
-      text: "Build really cool todo app",
+      text: "Lorem Ipsum 3",
       isCompleted: false,
     },
   ]);
